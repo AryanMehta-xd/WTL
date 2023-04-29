@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="intro_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <title>
+            Find Resumes
+        </title>
+        <script>
+            function page_redirect_user(){
+                window.location.href="user_page.html";
+            }
+
+            function page_redirect_vendor(){
+                window.location.href="vendor_page.html";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <img src="img/h11.png" alt="">
+            <div class="main_txt">
+                
+                    <h1>Welcome to Resume Finder</h1><br><br>
+                    <h2>Empowering Your Job Search : Find Your Resume's Perfect Match</h2>
+                
+            </div>
+            
+                <center>
+                <div class="main_but">
+                    <l1><button id = "but_user" class = "button" onclick="page_redirect_user();">Login as Employee</button></l1>
+                    <l1><button id = "but_vendor" class="button1" onclick="page_redirect_vendor();">Login as Vendor</button></l1>
+                </div>
+            </center>
+        </div>
+    </body>
+</html>
