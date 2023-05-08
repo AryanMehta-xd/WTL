@@ -3,16 +3,16 @@ body{
 }
 img{
     position: relative;
-    width: 80%;
-    margin-top: -13%;
-    left: -180px;
+    width: 50%;
+    margin-top: -2%;
+    left: -150px;
 }
 h1{
     position: relative;
     color: #2E4F4F;
     top: -80px;
     font-family: 'Kanit', sans-serif;
-    font-size: 150px;
+    font-size: 100px;
     bottom: 150px;
     font-weight: bold;
     z-index: 1;
@@ -20,14 +20,15 @@ h1{
 .form{
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     float: right;
-    right: 120px;
+    right: 50px;
     border-radius: 20px;
-    margin-top: -650px;
+    margin-top: -550px;
     padding: 90px;
-    width: 30%;
+    width: 55%;
+    height: 550px;
     border: 2px solid black;
     transition: .5s;
 }
@@ -37,27 +38,141 @@ h1{
     background-color: #05BFDB;
     border-radius: 50px;
 }
-h1 .form:hover {
-    color: #05BFDB;
+.prof{
+    position: relative;
+    float: center;
+    left: 75px;
+    top: -45px;
+}
+.prof_input{
+    width: 280px;
+    height: 30px;
+}
+.name{
+    position: relative;
+    float: left;
+    left: -55px;
+    top: -105px;
+}
+.name_input{
+    width: 330px;
+    height: 40px;
+}
+.add{
+    position: relative;
+    float: right;
+    top: -127px;
+    right: 280px;
+}
+.add_input{
+    width: 300px;
+    height: 30px;    
 }
 .mob{
     position: relative;
-    right: 28px;
+    right: -38px;
+    float: right;
+    top: -105px;
+}
+.mob_input{
+    width: 150px;
+    height: 40px;
 }
 .em{
     position: relative;
-    left: 25px;
+    float: left;
+    top: -85px;
+    left: -55px;
+}
+.em_input{
+    width: 330px;
+    height: 40px;
 }
 .name, .mob, .em, .add{
     padding-top: 20px;
 }
-input{
-    width: 300px;
+.date{
+    position: relative;
+    float: right;
+    right: -45px;
+    top: -63px;
+}
+.bdate_input{
+    width: 200px;
     height: 40px;
+}
+.field{
+    position: relative;
+    top: -40px;
+    float: left;
+    left: -50px;
+}
+hr{
+    position: relative;
+    width: 75%;
+    top: -100px;
+    opacity: 0.3;
+    transition: 1s;
+}
+.form:hover .hr1{
+    border: 1px solid black;
+    opacity: 1;
+    transition: 2s;
+}
+.fild_input{
+    width: 200px;
+    height: 40px;
+}
+select{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.options{
+    height: 50px;
+}
+.grade10{
+    position: relative;
+    float: left;
+    top: -75px;
+    left: -50px;
+}
+.grade10_input{
+    width: 100px;
+    height: 40px;
+}
+.grade12{
+    position: relative;
+    float: left;
+    top: -75px;
+    left: -30px;
+}
+.grade12_input{
+    width: 100px;
+    height: 40px;
+}
+.dipgrade{
+    position: relative;
+    float: left;
+    top: -75px;
+}
+.dipgrade_input{
+    width: 100px;
+    height: 40px;
+}
+.curr_stat{
+    position: relative;
+    float: right;
+    top: -120px;
+    left: 50px;
+}
+.curr_options{
+    height: 50px;
+}
+input{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    padding-left: 10px;
     transition: 1s;
 }
 span{
