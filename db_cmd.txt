@@ -1,0 +1,19 @@
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`resume_finder` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+USE `resume_finder`;
+
+CREATE TABLE `resume_list` (
+  `resume_id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `mob_no` varchar(10) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `b_day` date DEFAULT NULL,
+  `address` varchar(250) DEFAULT NULL,
+  `grade_10` float DEFAULT NULL,
+  `grade_12` float DEFAULT NULL,
+  `dip_grade` float DEFAULT NULL,
+  `curr_status` varchar(100) DEFAULT NULL,
+  `curr_field` varchar(100) DEFAULT NULL,
+  `photo` longblob,
+  PRIMARY KEY (`resume_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
